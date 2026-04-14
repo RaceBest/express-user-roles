@@ -13,7 +13,7 @@ services:
     ports:
       - "3000:3000"
     volumes:
-      - ../:/tmp/src
+      - ../:/tmp/src:z
     environment:
       SMTP_HOST: email
       SMTP_PORT: 1025
